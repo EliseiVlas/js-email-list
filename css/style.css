@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#email-random li{
+    border: 2px black solid;
+    padding: 8px 20px;
+    margin: 13px;
+    border-radius: 10px;
+    background-color: beige;
+    color: black;
+   
+}
+#email-random li:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+}
+
+#email-random{
+    width: 30%;
+    list-style-type: none; 
+}
+
+#genera-mail{
+padding: 8px 20px ;
+border-radius: 5px;
+background-color: rgb(112, 191, 255);
+cursor: pointer;
+color: white;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+#genera-mail:hover{
+background-color:rgb(12, 145, 253); 
+padding: 10px 24px;
+transform: translateY(-3px);
+}
+
+#genera-mail:active {
+    transform: translateY(2px);
+}
+
+.contenitore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    background-color: cadetblue;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+}
